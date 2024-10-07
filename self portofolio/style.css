@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+body{
+    background-image: url(2121.jpg);
+    background-size: cover;
+    
+
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    
+}
+.fle{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.fle input{
+    padding: 9px;
+    width: 300px;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+
+
+}
+.fle button {
+    position: absolute;
+    right: 0px;
+    left: 3;
+    top: 0;
+    bottom: 0;
+    border-radius: 50px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    
+
+}
+.nav a{
+    text-decoration: none;
+    color: #a0a0a0;;
+    position: relative;
+    transition: color 0.3s ease;
+
+
+
+}
+.nav a::after{
+    content: '';
+    position: absolute;
+    background-color: #cec3c3;
+    height: 2px;
+    width:100%;
+    left: 0;
+    bottom: -10%;
+  transform: scaleX(0);
+    transition:transform 0.3s ease;
+
+}
+.nav a:hover{
+    color: #ffffff;
+
+}
+.nav a:hover::after{
+   
+   transform: scaleX(1);
+
+    
+}
+.mine{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 120px;
+}
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    
+}
+.place input{
+    padding: 9px;
+    width: 300px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+
+    
+}
+.place button{
+    padding: 8px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 4px;
+}
+.place button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.mine h1{
+    margin: 6px;
+    
+}
+.skills{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+
+}
+.skills h2{
+    margin-top: 100px;
+    
+
+    
+    
+}
+.skil{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 70px;
+   
+    
+}
+.skil2{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    
+}
